@@ -1,4 +1,4 @@
-package class2;
+package com.tjuwhy.class3;
 
 import java.util.HashSet;
 import java.util.Iterator;

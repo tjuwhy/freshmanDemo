@@ -1,4 +1,4 @@
-package class2;
+package com.tjuwhy.class3;
 
 public class Box<T> {
 
@@ -13,8 +13,8 @@ public class Box<T> {
     }
 
     public static void main(String[] args) {
-        Box<Integer> integerBox = new Box<Integer>();
-        Box<String> stringBox = new Box<String>();
+        Box<Integer> integerBox = new Box<>();
+        Box<String> stringBox = new Box<>();
 
         integerBox.set(10);
         stringBox.set("天外天移动Android组");

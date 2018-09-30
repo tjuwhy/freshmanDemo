@@ -1,23 +1,19 @@
-package class1;
+package com.tjuwhy.class1;
 
-import java.util.List;
-
-public class BasicDataType {
+public class BasicStatement {
 
     public static void main(String[] args) {
 
-        int a = 1;
-        double b = 2.0;
-        final boolean c = true;
+        int a = 1;//int 类型表示整数
+        double b = 2.0;//double类型表示浮点数
+        final boolean c = true;//boolean true false
         String d = "twtstudio";//String并不是基本数据类型,而是一个类
 
-        int arrayA[] = {1, 2, 3};
+        int arrayA[] = {1, 2, 3};//数组是一个对象
         double arrayB[] = {1.0, 2.0, 3.0};
-        //...以此类推
 
         System.out.println(a);//输出并换行
         System.out.print(b);//输出不换行
-        // c = false; //错误！被final修饰的变量不可更改
 
         if (arrayA[0] == ++a/*后置加加*/) {
             System.out.println("a和array[0]是相等的");
